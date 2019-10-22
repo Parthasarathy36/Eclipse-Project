@@ -28,6 +28,7 @@ public class FilterSecurityImplementation extends WebSecurityConfigurerAdapter {
 		.and().logout().logoutSuccessUrl("/login?logout");
 
 		http.csrf().disable();
+		System.out.println("Hai");
 	}
 	
 }	
